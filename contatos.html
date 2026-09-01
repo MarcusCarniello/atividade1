@@ -1,57 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vetor Imóveis | Encontre seu novo lar</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contatos | Vetor Imóveis</title>
 
-    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="brand">
-            <img src="imagens/ChatGPT Image 31 de ago. de 2026, 19_34_45.png" class="logo">
-            <h1>Vetor Imóveis</h1>
-        </div>
-        <nav class="main-nav">
-            <a class="active" href="index.html">Home</a>
-            <a href="quemsomos.html">Quem Somos</a>
-            <a href="contatos.html">Contatos</a>
-        </nav>
-    </header>
-    <main>
-        <section class="hero"> <h1>Bem vindos a maior imobiliãria da região</h1>
-        <p>Na Vetor Imóveis, acreditamos que cada chave entregue é o início de uma nova jornada. 
-Com anos de experiência e dedicação, somos referência em vendas e locações na região.</p>
-</section>
-       <section>
-         <div class="section-heading">
-                <h2>Por que escolher a Vetor?</h2>
-            </div>
-             <div class="highlight-grid">
-                <article class="highlight">
-                    <div class="number">01</div>
-                    <h3>Estratégia</h3>
-                    <p>Entendemos o mercado, a mensagem e a jornada do cliente antes de qualquer compra.</p>
-                </article>
-                <article class="highlight">
-                    <div class="number">02</div>
-                    <h3>Visibilidade</h3>
-                    <p>Referência em marketing imobiliário com foco em clareza, autoridade e diferenciação.</p>
-                </article>
-                <article class="highlight">
-                    <div class="number">03</div>
-                    <h3>Resultado</h3>
-                    <p>Nosso objetivo é transformar sonhos em realidade.</p>
-                </article>
-            </div>
-       </section>
+	<header>
+		<div class="brand">
+			<img src="imagens/ChatGPT Image 31 de ago. de 2026, 19_34_45.png" class="logo">
+			<h1>Vetor Imóveis</h1>
+		</div>
+		<nav class="main-nav">
+			<a href="index.html">Home</a>
+			<a href="quemsomos.html">Quem Somos</a>
+			<a class="active" href="contatos.html">Contatos</a>
+		</nav>
+	</header>
 
-    </main>
+	<main>
+		<section class="contact-section">
+			<div class="section-heading">
+				<h2>Fale com a gente</h2>
+				<p>Preencha seus dados e entraremos em contato o quanto antes.</p>
+			</div>
 
-    <footer class="site-footer">
-        <p>© 2026 Vetor Imóveis</p>
-        <p>Realizando sonhos. <a href="Contatos.html">Fale conosco</a>
-    </footer>
+			<form class="contact-form">
+				<div class="form-group">
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+				</div>
+
+				<div class="form-group">
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" name="telefone" placeholder="(12) 90000-0000" required>
+				</div>
+
+				<div class="form-group">
+					<label for="email">E-mail</label>
+					<input type="email" id="email" name="email" placeholder="voce@email.com" required>
+				</div>
+
+				<button type="submit" class="form-submit">Enviar</button>
+			</form>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<p>© 2026 Vetor Imóveis</p>
+		<p>Realizando sonhos. <a href="index.html">Voltar ao início</a></p>
+	</footer>
 </body>
 </html>
